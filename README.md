@@ -39,31 +39,31 @@ To rename files, the Linux command is mv oldname.ext newname.ext
 Basic Git Commands
 1. git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
-Configure the author name and email address to be used with your commits. (Tell git who you are)
+- Configure the author name and email address to be used with your commits. (Tell git who you are)
 2. git init 
-Create a new local repository
+- Create a new local repository
 3. git clone /path/to/repository
-Create a working copy of a local repository (Check out a new repository)
+- Create a working copy of a local repository (Check out a new repository)
 4. git clone username@host:/path/to/repository
-For a remote server, use
+- For a remote server, use
 5. git add <filename>
 git add *
-Add one or more files (Add files)
+- Add one or more files (Add files)
 6. git commit –m “commit message/name”
 7. git commit –a 
-Commit any files you’ve added with git add, and also commit any files you’ve changed since then
+- Commit any files you’ve added with git add, and also commit any files you’ve changed since then
 8. git push origin master
-Send changes to the master branch of your repository
+- Send changes to the master branch of your repository
 9. git status
-List the files you’ve changed and those you need to add or commit
+- List the files you’ve changed and those you need to add or commit
 10. git remote add origin <server>
-Add the server to be able to push it when you haven’t connected the local repository to a server
+- Add the server to be able to push it when you haven’t connected the local repository to a server
 11. git remote –v
-List all currently configured remote repositories 
+- List all currently configured remote repositories 
 12. git pull
-Fetch and merge changes on the remote server to the working directory.
+- Fetch and merge changes on the remote server to the working directory.
 13. git merge <branchname>
-Merge a different branch into the active branch.
+- Merge a different branch into the active branch.
 
 Create a new repository on the command line
 echo “# Problems” >> README.md
@@ -72,7 +72,8 @@ echo “# Problems” >> README.md
 3.	git commit -m “commit name”
 4.	git remote add origin “github repository link” i.e. https://github.com//Talbia/Problems.git
 5.	git push -u origin master
-Push a File in Github
+
+Push a File in Github -
 1.	Open terminal
 2.	pwd
 3.	cd “ONESPACE”(as in a space) /Users/”username(for ex. john)”/Documents/workspace
