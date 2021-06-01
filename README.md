@@ -121,7 +121,7 @@ a) Open a browser, write adoptopenjdk.net and choose a version (OpenJDK 11 LTS, 
 
 b) Open the terminal, type java -version (To see OpenJDK version)
 
-c) type java -version (To see javac version)
+c) type javac -version (To see javac version)
 
 d) Search for OpenJDK on a browser, click on ‘install’ and click on ‘jdk.java.net/13’ or as required and choose macOS version x64 
 
