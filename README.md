@@ -4,22 +4,25 @@
 
 - pwd : to find out the path of the current working directory (folder)
 
-- cd : to navigate through the files and directories
-- cd .. (with two dots) to move one directory up
-- cd to go straight to the home folder
-- cd- (with a hyphen) to move to your previous directory
-- cd ~ (directly goes to the home directory)
+#### Changing Directory (cd)
+-- cd : to navigate through the files and directories
+-- cd .. (with two dots) to move one directory up
+-- cd to go straight to the home folder
+--  cd - (with a hyphen) to move to your previous directory
+-- cd ~ (directly goes to the home directory)
 
-- ls : used to view the contents of a directory
--	ls -R will list all the files in the sub-directories as well
--	ls -a will show the hidden files
--	ls -al will list the files and directories with detailed information like the permissions, size, owner, etc.
--	ls –l will list the files and directories with detailed information like the date, time, folder name etc.
+#### list (ls)
+-- ls : used to view the contents of a directory
+--	ls -R will list all the files in the sub-directories as well
+--	ls -a will show the hidden files
+--	ls -al will list the files and directories with detailed information like the permissions, size, owner, etc.
+--	ls –l will list the files and directories with detailed information like the date, time, folder name etc.
 
+#### Concatenate (cat)
 - cat : (short for concatenate) used to list the contents of a file on the standard output (sdout)
--	cat > filename creates a new file
--	cat filename1 filename2>filename3 joins two files (1 and 2) and stores the output of them in a new file (3)
--	to convert a file to upper or lower case use, cat filename | tr a-z A-Z >output.txt
+--	cat > filename creates a new file
+--	cat filename1 filename2>filename3 joins two files (1 and 2) and stores the output of them in a new file (3)
+--	to convert a file to upper or lower case use, cat filename | tr a-z A-Z >output.txt
 
 - cp : to copy files from the current directory to a different directory
 For instance, the command cp scenery.jpg /home/username/Pictures would create a copy of scenery.jpg (from your current directory) into the Pictures directory.
