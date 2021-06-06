@@ -38,6 +38,7 @@ To rename files, the Linux command is mv oldname.ext newname.ext
 - rm : used to delete directories and the contents within them. If you only want to delete the directory — as an alternative to rmdir — use rm -r.
 
 - touch : to create a blank new file through the Linux command line. As an example, enter touch /home/username/Documents/Web.html to create an HTML file entitled Web under the Documents directory.
+-- touch filename with extension (touch README.md)
 
 
 - echo : used to move some data into a file
@@ -48,45 +49,45 @@ To rename files, the Linux command is mv oldname.ext newname.ext
 
 - git config --global user.name "Sam Smith"
 
-git config --global user.email sam@example.com
-Configure the author name and email address to be used with your commits. (Tell git who you are)
+- git config --global user.email sam@example.com
+-- Configure the author name and email address to be used with your commits. (Tell git who you are)
 
 - git init 
-Create a new local repository
+-- Create a new local repository
 
 - git clone /path/to/repository
-Create a working copy of a local repository (Check out a new repository)
+-- Create a working copy of a local repository (Check out a new repository)
 
 - git clone username@host:/path/to/repository
-For a remote server, use
+-- For a remote server, use
 
 - git add <filename>
 
 - git add *
-Add one or more files (Add files)
+-- Add one or more files (Add files)
 
 - git commit –m “commit message/name”
 
 - git commit –a 
-Commit any files you’ve added with git add, and also commit any files you’ve changed since then
+-- Commit any files you’ve added with git add, and also commit any files you’ve changed since then
 
 - git push origin master
-Send changes to the master branch of your repository
+-- Send changes to the master branch of your repository
 
 - git status
-List the files you’ve changed and those you need to add or commit
+-- List the files you’ve changed and those you need to add or commit
 
 - git remote add origin <server>
-Add the server to be able to push it when you haven’t connected the local repository to a server
+-- Add the server to be able to push it when you haven’t connected the local repository to a server
 
--git remote –v
-List all currently configured remote repositories 
+- git remote –v
+-- List all currently configured remote repositories 
 
 - git pull
-Fetch and merge changes on the remote server to the working directory.
+-- Fetch and merge changes on the remote server to the working directory.
 
 - git merge <branchname>
-Merge a different branch into the active branch.
+-- Merge a different branch into the active branch.
 
 ##### Create a new repository on the command line
 echo “# Problems” >> README.md
