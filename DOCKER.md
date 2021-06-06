@@ -1,6 +1,6 @@
-## DOCKER Basics
+# DOCKER Basics
 
-# After Docker installation, type on terminal
+### After Docker installation, type on terminal
 
 - docker version (Check version type)
 - clear
