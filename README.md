@@ -4,14 +4,14 @@
 
 - pwd : to find out the path of the current working directory (folder)
 
-- Changing Directory (cd)
--- cd directory name
+#### - Changing Directory (cd)
+- cd directory name
 > to navigate through the files and directories
--- cd .. 
+- cd .. 
 > (with two dots) to move one directory up
--- cd ~
+- cd ~
 > to go straight to the home directory
---  cd - 
+-  cd - 
 > (with a hyphen) to move to your previous directory
 
 
