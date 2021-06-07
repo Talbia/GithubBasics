@@ -32,9 +32,6 @@ docker run -it -d <image name>
 ```
 > This command is used to create a container from an image
 
-- docker ps
-> This command is used to list the running containers
-
 - docker ps -a
 > This command is used to show all the running and exited containers
 
