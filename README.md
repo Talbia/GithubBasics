@@ -5,12 +5,15 @@
 - pwd : to find out the path of the current working directory (folder)
 
 - Changing Directory (cd)
--- cd <directory name>
+-- cd directory name
 > to navigate through the files and directories
--- cd .. (with two dots) to move one directory up
--- cd to go straight to the home folder
---  cd - (with a hyphen) to move to your previous directory
--- cd ~ (directly goes to the home directory)
+-- cd .. 
+> (with two dots) to move one directory up
+-- cd ~
+> to go straight to the home directory
+--  cd - 
+> (with a hyphen) to move to your previous directory
+
 
 - list (ls)
 -- ls : used to view the contents of a directory
