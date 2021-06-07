@@ -4,21 +4,22 @@
 
 - pwd : to find out the path of the current working directory (folder)
 
-#### Changing Directory (cd)
--- cd : to navigate through the files and directories
+- Changing Directory (cd)
+-- cd <directory name>
+> to navigate through the files and directories
 -- cd .. (with two dots) to move one directory up
 -- cd to go straight to the home folder
 --  cd - (with a hyphen) to move to your previous directory
 -- cd ~ (directly goes to the home directory)
 
-#### list (ls)
+- list (ls)
 -- ls : used to view the contents of a directory
 --	ls -R will list all the files in the sub-directories as well
 --	ls -a will show the hidden files
 --	ls -al will list the files and directories with detailed information like the permissions, size, owner, etc.
 --	ls –l will list the files and directories with detailed information like the date, time, folder name etc.
 
-#### Concatenate (cat)
+- Concatenate (cat)
 - cat : (short for concatenate) used to list the contents of a file on the standard output (sdout)
 --	cat > filename creates a new file
 --	cat filename1 filename2>filename3 joins two files (1 and 2) and stores the output of them in a new file (3)
