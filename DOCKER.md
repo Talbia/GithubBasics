@@ -43,9 +43,9 @@ docker exec -it <container id> bash
 
 - docker stop
 ```ssh
-docker stop <container id>
+docker stop <container id/name>
 ```
-> This command stops a running container
+> This command stops a running container. Must provide either container_id or container_name in the stop command.
 
 - docker kill
 ```ssh
@@ -78,7 +78,7 @@ docker push <username/image name>
 
 - docker rm
 ```ssh
-docker rm <container id>
+docker rm <container id/name>
 ```
 > This command is used to delete a stopped container
 
@@ -93,6 +93,7 @@ docker rmi <image-id>
 docker build <path to docker file>
 ```
 > This command is used to build an image from a specified docker file
+
 
 
 
