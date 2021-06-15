@@ -4,4 +4,4 @@
 a VM to run as a Docker host and 
 demonstrating how to pull a Nginx Docker image 
 from Docker Hub to create a container 
-> based off of the Nginx image. 
+based off of the Nginx image. 
