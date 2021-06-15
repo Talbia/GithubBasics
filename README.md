@@ -4,7 +4,10 @@
 
 - pwd : to find out the path of the current working directory (folder)
 
-#### - Changing Directory (cd)
+
+```ssh 
+Changing Directory (cd)
+```
 - cd directory name
 > to navigate through the files and directories
 - cd .. 
@@ -15,7 +18,10 @@
 > (with a hyphen) to move to your previous directory
 
 
-#### - list (ls)
+
+```ssh
+list (ls)
+```
 - ls 
 > It is used to view the contents of a directory
 - ls -R 
@@ -27,7 +33,9 @@
 - ls –l 
 > Itwill list the files and directories with detailed information like the date, time, folder name etc.
 
-#### - Concatenate (cat)
+```ssh
+Concatenate (cat)
+```
 - cat 
 > (short for concatenate) used to list the contents of a file on the standard output (sdout)
 - cat > filename 
@@ -36,31 +44,44 @@
 > It joins two files (1 and 2) and stores the output of them in a new file (3)
 to convert a file to upper or lower case use, cat filename | tr a-z A-Z >output.txt
 
-- cp 
+```ssh 
+cp (copy)
+```
 > to copy files from the current directory to a different directory
 For instance, the command cp scenery.jpg /home/username/Pictures would create a copy of scenery.jpg (from your current directory) into the Pictures directory.
 
-- mv 
+```ssh 
+mv (move)
+```
 > to move files, although it can also be used to rename files.
 For example: mv file.txt /home/username/Documents.
 To rename files, the Linux command is mv oldname.ext newname.ext
 
-- mkdir 
+```ssh
+mkdir (make directory)
+```
 > to make a new directory
 
-- rmdir 
+```ssh 
+rmdir (remove directory)
+```
 > to delete a directory. rmdir only allows you to delete empty directories.
 
-- rm 
+```ssh 
+rm (remove)
+```
 > used to delete directories and the contents within them. If you only want to delete the directory — as an alternative to rmdir — use rm -r.
 
-- touch 
+```ssh 
+touch
+```
 > to create a blank new file through the Linux command line. As an example, enter touch /home/username/Documents/Web.html to create an HTML file entitled Web under the Documents directory.
 
 > touch filename with extension (touch README.md)
 
-
-- echo 
+```ssh
+echo
+```
 > used to move some data into a file
 
 
