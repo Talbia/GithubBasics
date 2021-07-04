@@ -1,7 +1,7 @@
 # Github Basics
 
 
-### Create a new repository on the command line
+### Create a new repository on the command line:
 echo “# Problems” >> README.md
 -	git init
 -	git add README.md
@@ -9,7 +9,7 @@ echo “# Problems” >> README.md
 -	git remote add origin “github repository link” i.e. https://github.com//Talbia/Problems.git
 -	git push -u origin master
 
-### Push a File in Github -
+### Push a File in Github:
 -	Open terminal
 -	pwd
 -	cd “ONESPACE”(as in a space) /Users/”username(for ex. john)”/Documents/workspace
@@ -25,18 +25,18 @@ echo “# Problems” >> README.md
 > Then you might be asked for username and password for Github 
 
 
-### Push an existing repository from the command line
+### Push an existing repository from the command line:
 -	git remote add origin “github repository link” 
 -	git push -u origin master
 
 
-### Import code from another repository
+### Import code from another repository:
 
 > You can initialize this repository with code from a Sebversion, Mercurial or TFS project.
 > An option will be shown below “Import code”.
 
 
-### (Practice) Used command lines for my personal repository
+### (Practice) Used command lines for my personal repository:
 
 - git clone git@github.com:Talbia/intro.git (clones/downloads the specific folder/repositories  from git to user’s desktop)
 
