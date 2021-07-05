@@ -1,13 +1,22 @@
 # Github Basics
 
 
-### Create a new repository on the command line:
-echo “# Problems” >> README.md
+### After creating a new repository on the command line, commit some files:
+echo “# Problems” >> README.md _optional_
 -	git init
--	git add README.md
+-	git add README.md 
+> If you need a README markdown file
 -   git commit -m “commit name”
--	git remote add origin “github repository link” i.e. https://github.com//Talbia/Problems.git
--	git push -u origin master
+-	git remote add origin “github repository link” i.e. https://github.com//Talbia/Problems.git/ ssh link
+-	git push -u origin master `for master branch`
+
+### For main branch _Mostly used - main branch_
+- git init
+- git add README.md (if readme.md needed) 
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin git@github.com:Talbia/reactJS_login_authentication.git
+- git push -u origin main `for main branch`
 
 ### Push a File in Github:
 -	Open terminal
