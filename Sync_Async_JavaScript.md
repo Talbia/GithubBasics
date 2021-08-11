@@ -57,5 +57,6 @@ A good example is JavaScript setTimeout().
 	Let's see what happens
 ```
 In the above code snippet, first it `logs in Hi` then rather than executing the setTimeout function it `logs in End` and then it `runs the setTimeout function.`
+At first, as usual, the Hi statement got logged in. Next, it passes the setTimeout function in such web API to run the code as usual. So it does not block the rest of the code from executing, it gets pushed to the call stack and then finally gets executed. This is what happens in asynchronous JavaScript.
 
 #### _JavaScript is always synchronous and single-threaded by default. If you're executing a JavaScript block of code on a page then no other JavaScript on that page will currently be executed. JavaScript is only asynchronous in the sense that it can make, for example, Ajax calls._
