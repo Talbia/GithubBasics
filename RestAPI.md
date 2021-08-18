@@ -4,5 +4,5 @@ It is short for **Representational State Transfer - Application Programming Inte
 
 It is basically a convention for building HTTP services. 
 
-Let's look an example: [http://vidly.com/api/customers]
+Let's look an example: [http://vidly.com/api/customers][df1]
 - At first, here's an address starting with **http or https** - depends on the application and its requirements. **HTTPS is used to exchange data on a secure channel, HTTP otherwise.** 
