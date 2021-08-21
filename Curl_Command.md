@@ -65,7 +65,7 @@ $ curl -X DELETE https://jsonplaceholder.typicode.com/posts/3
 
 ### Keypoints to remember:
 
-- $ `curl http://address..` is used for the **GET request**. This is what an user get back for the get request. 
+- `$ curl http://address..` is used for the **GET request**. This is what an user get back for the get request. 
 
 - `$ curl '--data or -d' "name=World&body=Hello World" https://address..` is used for the **POST request**. This is how an user can pass in post data and follow that by the URL that the user's requesting. 
 
