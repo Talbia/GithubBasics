@@ -1,6 +1,6 @@
 ## Introduction to CURL 
 
-- CURL stands for **Command line tool and library for transferring data with URLs**
+-CURL stands for **Command line tool and library for transferring data with URLs**
 - It's a tool for transferring data to and from a server and for making various types of requests. It's a great tool for testing RestAPIs.
 
 ### Commands: 
@@ -62,3 +62,13 @@ $ curl -X PUT -d "title=Hello" https://jsonplaceholder.typicode.com/posts/3
 $ curl -X DELETE https://jsonplaceholder.typicode.com/posts/3
 ```
 > To delete a specific ID. A successful delete response. 
+
+### Keypoints to remember:
+
+- $ `curl http://address..` is used for the **GET request**. This is what an user get back for the get request. 
+
+- `$ curl '--data or -d' "name=World&body=Hello World" https://address..` is used for the **POST request**. This is how an user can pass in post data and follow that by the URL that the user's requesting. 
+
+- `$ curl '-verbose' http://address` This verbose flag used to see what the User is requesting for (i.e. get/post/put)
+
+- $ curl '-X' is used for **PUT and DELETE** requests.
