@@ -56,7 +56,10 @@ $ curl --data "title=Hello & body=Hello World" https://jsonplaceholder.typicode.
 ```sh
 $ curl -X PUT -d "title=Hello" https://jsonplaceholder.typicode.com/posts/3
 ```
-> To put the title in a specific Post ID e.g. ID no.3, type capital -X flag, **PUT** to be mentioned,--data command will be replaced with -d
+> To put the title in a specific Post ID e.g. ID no.3, 
+> type capital -X flag, 
+> **PUT** to be mentioned,
+> --data command will be replaced with -d
 
 ```sh
 $ curl -X DELETE https://jsonplaceholder.typicode.com/posts/3
