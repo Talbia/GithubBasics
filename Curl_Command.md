@@ -56,10 +56,7 @@ $ curl --data "title=Hello & body=Hello World" https://jsonplaceholder.typicode.
 ```sh
 $ curl -X PUT -d "title=Hello" https://jsonplaceholder.typicode.com/posts/3
 ```
-> To put the title in a specific Post ID e.g. ID no.3, 
-> type capital -X flag, 
-> **PUT** to be mentioned,
-> --data command will be replaced with -d
+> To put the title in a specific Post ID e.g. ID no.3, type capital -X flag, **PUT** to be mentioned,--data command will be replaced with -d
 
 ```sh
 $ curl -X DELETE https://jsonplaceholder.typicode.com/posts/3
@@ -72,6 +69,6 @@ $ curl -X DELETE https://jsonplaceholder.typicode.com/posts/3
 
 - `$ curl '--data or -d' "name=World&body=Hello World" https://address..` is used for the **POST request**. This is how an user can pass in post data and follow that by the URL that the user's requesting. 
 
-- `$ curl '-verbose' http://address` This verbose flag used to see what the User is requesting for (i.e. get/post/put)
+- `$ curl '-verbose' http://address` This verbose flag used to see what the User is requesting for (i.e. get/post/put). **Here, -v can be used instead of veerbose, -v is the short form of verbose**
 
 - $ curl '-X' is used for **PUT and DELETE** requests.
