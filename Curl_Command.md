@@ -1,6 +1,6 @@
 ## Introduction to CURL 
 
--CURL stands for **Command line tool and library for transferring data with URLs**
+- CURL stands for **Command line tool and library for transferring data with URLs**
 - It's a tool for transferring data to and from a server and for making various types of requests. It's a great tool for testing RestAPIs.
 
 ### Commands: 
