@@ -42,3 +42,23 @@ $ curl -o curlCmd.txt https://jsonplaceholder.typicode.com/posts
 $ curl -O https://jsonplaceholder.typicode.com/posts
 ```
 > To download file with curl with an Uppercase O
+
+```ssh
+$ curl -O https://jsonplaceholder.typicode.com/mockend.svg
+```
+> To download an image, **copy the image address/link (i.e. image address - mockend.svg) and paste it in the terminal after -O.**
+
+```sh
+$ curl --data "title=Hello & body=Hello World" https://jsonplaceholder.typicode.com/posts
+```
+> To post some quotes or title to be added as an ID for the posts part, type --data or -D and write the text inside the commas "" and copy the **POSTS ADDRESS**. _Note: It will add the title as the ID number 101 because 100 posts already stored there but it's not going to be saved or showed._
+
+```sh
+$ curl -X PUT -d "title=Hello" https://jsonplaceholder.typicode.com/posts/3
+```
+> To put the title in a specific Post ID e.g. ID no.3, type capital -X flag, **PUT** to be mentioned,--data command will be replaced with -d
+
+```sh
+$ curl -X DELETE https://jsonplaceholder.typicode.com/posts/3
+```
+> To delete a specific ID. A successful delete response. 
